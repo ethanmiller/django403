@@ -31,7 +31,7 @@ def fallback_403(request):
   Context: None
   """
   return django.http.HttpResponseForbidden(
-      _("""<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+      ("""<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
 <html><head>
 <title>403 Forbidden</title>
 </head><body>
